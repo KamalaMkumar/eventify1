@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventify | About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f5fbff;
+      color: #0f172a;
+    }
+
+    /* ================= HEADER ================= */
+    header {
+      background: #8fd3f4;
+      padding: 18px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #0f172a;
+      font-weight: 500;
+      padding-bottom: 4px;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #025fa3;
+      border-bottom: 2px solid #025fa3;
+    }
+
+    /* ================= ABOUT SECTION ================= */
+    .about {
+      padding: 80px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-card {
+      max-width: 900px;
+      background: #ffffff;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+      text-align: center;
+    }
+
+    .about-card h2 {
+      font-size: 36px;
+      margin-bottom: 25px;
+      color: #025fa3;
+    }
+
+    .about-card p {
+      font-size: 17px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .highlight {
+      color: #025fa3;
+      font-weight: 600;
+    }
+
+    /* ================= FEATURES ================= */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .feature-box {
+      background: #eef8ff;
+      padding: 20px;
+      border-radius: 14px;
+      font-weight: 600;
+    }
+
+    /* ================= FOOTER ================= */
+    footer {
+      background: #8fd3f4;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 80px;
+    }
+
+    /* ================= RESPONSIVE ================= */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin-left: 15px;
+      }
+
+      .about-card {
+        padding: 30px;
+      }
+
+      .about-card h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Eventify</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT CONTENT -->
+  <section class="about">
+    <div class="about-card">
+      <h2>About Eventify</h2>
+
+      <p>
+        <span class="highlight">Eventify</span> is a Nagercoil-based family event
+        management service created to make celebrations stress-free and joyful.
+      </p>
+
+      <p>
+        We help families easily manage weddings and celebrations by connecting
+        <span class="highlight">wedding halls, catering, decoration, DJ, photography,
+        makeup, and transport</span> — all in one trusted place.
+      </p>
+
+      <p>
+        Whether it’s a small family function or a grand wedding, Eventify ensures
+        quality service, transparent pricing, and local expertise.
+      </p>
+
+      <!-- FEATURES -->
+      <div class="features">
+        <div class="feature-box">🏛️ Wedding Halls</div>
+        <div class="feature-box">🍽️ Catering Services</div>
+        <div class="feature-box">🎉 Decorations</div>
+        <div class="feature-box">🎧 DJ & Music</div>
+        <div class="feature-box">📸 Photography</div>
+        <div class="feature-box">💄 Makeup Artists</div>
+        <div class="feature-box">🚗 Transportation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Eventify. All Rights Reserved.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wedding Halls - Eventify</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6f8;
+    }
+
+    /* HEADER */
+    .header {
+      background: #2aa6b8;
+      color: white;
+      padding: 15px 30px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 30px 0 10px;
+    }
+
+    /* GRID LAYOUT (LIKE YOUR DRAWING) */
+    .hall-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+      gap: 35px;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    /* CARD */
+    .hall-card {
+      background: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .hall-card:hover {
+      transform: translateY(-6px);
+    }
+
+    /* IMAGE */
+    .hall-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    /* TEXT AREA */
+    .hall-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .hall-info h3 {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    .hall-info p {
+      margin: 6px 0 12px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .hall-info button {
+      background: #2aa6b8;
+      color: white;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .hall-info button:hover {
+      background: #1f8e9c;
+    }
+
+    /* MOBILE VIEW */
+    @media (max-width: 768px) {
+      .hall-grid {
+        grid-template-columns: 1fr; /* 1 card per row */
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">Eventify</div>
+
+  <h2>Wedding Halls </h2>
+
+  <div class="hall-grid">
+
+    <div class="hall-card">
+      <img src="images/hall1.jpg" alt="Royal Palace">
+      <div class="hall-info">
+        
+        <h3>Royal Palace</h3>
+        <p>₹40,000 / day</p>
+        <h5>No. 11-A, Rajakkamangalam Road,
+Parvathipuram,
+Nagercoil – 629003,
+Tamil Nadu.
+</h5>
+        <button>Book</button>
+      </div>
+    </div>
+
+    <div class="hall-card">
+      <img src="images/hall2.jpg" alt="Sri Lakshmi Mahal">
+      <div class="hall-info">
+        <h3>Sri Lakshmi Mahal</h3>
+        <p>₹38,000 / day</p>
+        <h5>No. 18, Thiruvalluvar Nagar,
+Asaripallam,
+Nagercoil – 629201,
+Kanyakumari District, Tamil Nadu.</h5>
+        <button>Book</button>
+      </div>
+    </div>
+
+    <div class="hall-card">
+      <img src="images/hall3.jpg" alt="Grand Lotus">
+      <div class="hall-info">
+        <h2>Grand Lotus</h2>
+        <p>₹45,000 / day</p>
+        <h5>No. 24/3, Vivekananda Street,
+Near Anna Bus Stand,
+Nagercoil – 629001,
+Kanyakumari District, Tamil Nadu.</h5>
+        <button>Book</button>
+      </div>
+    </div>
+
+    <div class="hall-card">
+      <img src="images/hall4.jpg" alt="Sri Devi Mahal">
+      <div class="hall-info">
+        <h3>Sri Devi Mahal</h3>
+        <p>₹35,000 / day</p>
+        <h5>No. 6/89, South Soorankudy,
+Near CSI Church,
+Nagercoil – 629004,
+Tamil Nadu.</h5>
+        <button>Book</button>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+-->

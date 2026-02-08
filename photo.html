@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Photography & Videography Services</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Card Layout */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  background: #ddd;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.address {
+  font-size: 14px;
+  padding: 0 15px;
+  color: #555;
+}
+
+/* Form */
+.form-box {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  padding: 25px;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1aa6b7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: #148b99;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<h1 class="page-title">Photography & Videography Services</h1>
+
+<div class="card-container">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <img src="images/img1.jpg" alt="Royal Wedding Photography">
+    <h3>Royal Wedding Photography</h3>
+    <p class="price">₹25,000 / event</p>
+    <p class="address">
+      Vadasery Main Road,<br>
+      Nagercoil – 629001
+    </p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <img src="images/img2.jpg" alt="Star Candid Photography">
+    <h3>Star Candid Photography</h3>
+    <p class="price">₹18,000 / event</p>
+    <p class="address">
+      Kottar,<br>
+      Nagercoil – 629002
+    </p>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <img src="images/img3.jpg" alt="Dream Wedding Videography">
+    <h3>Dream Wedding Videography</h3>
+    <p class="price">₹30,000 / event</p>
+    <p class="address">
+      Asaripallam,<br>
+      Nagercoil – 629201
+    </p>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <img src="images/img4.jpg" alt="Sky View Drone Videos">
+    <h3>Sky View Drone Videos</h3>
+    <p class="price">₹12,000 / event</p>
+    <p class="address">
+      Cape Road,<br>
+      Nagercoil – 629002
+    </p>
+  </div>
+
+</div>
+

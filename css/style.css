@@ -42,6 +42,32 @@ body { margin:0; font-family: Arial; background:#f2fbff; }
   transform: translateY(-8px);
   box-shadow: 0 10px 22px rgba(0,0,0,0.18);
 }
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #9fd7f1;
+  padding: 15px 0;
+}
 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;              /* spacing between items */
+  padding: 0;
+  margin: 10px 0 0;
+  flex-wrap: nowrap;      /* ⭐ KEY LINE */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #0b3c5d;
+  font-weight: 600;
+}
+
+.nav-links li a.active {
+  border-bottom: 2px solid #0b3c5d;
+  padding-bottom: 4px;
+}
 
 
